@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/future-travels/static/css/main.073c9b0a.css",
+    "main.js": "/future-travels/static/js/main.03d35818.js",
+    "index.html": "/future-travels/index.html",
+    "main.073c9b0a.css.map": "/future-travels/static/css/main.073c9b0a.css.map",
+    "main.03d35818.js.map": "/future-travels/static/js/main.03d35818.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.03d35818.js"
+  ]
+}
