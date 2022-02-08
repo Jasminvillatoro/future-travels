@@ -9,7 +9,7 @@ header {
   align-items: center;
   background-color: #f55a5a;
   color: #fff;
-  width: 100%;
+
   height: 60px;
 }
 
@@ -30,16 +30,21 @@ main {
   left: 62px;
 }
 
+.travel-img {
+  height: 500px;
+  width: 600px;
+}
+
 .text-cnt {
   margin: 10px;
 }
 
 h4 {
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
-span {
+a {
   margin-left: 6px;
   letter-spacing: 0;
   color: #918e9b;
@@ -47,7 +52,34 @@ span {
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   word-spacing: 2px;
+}
+
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .travel-img {
+    height: 400px;
+    width: 550px;
+  }
+
+  p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+  }
+}
+
+@media (max-width: 600px) {
+  .travel-img {
+    height: 300px;
+    width: 370px;
+  }
 }
