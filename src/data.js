@@ -1,4 +1,4 @@
-const travels = [
+const data = [
   {
     id: 1,
     title: 'Tokyo',
@@ -32,4 +32,4 @@ const travels = [
   },
 ];
 
-export default travels;
+export default data;
