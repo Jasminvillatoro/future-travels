@@ -1,17 +1,24 @@
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
-import travels from './data';
+import data from './data';
 function App() {
-  console.log(travels);
+  const travels = data.map((item) => {
+    return (
+      <Main
+        key={item.id}
+        img={item.imageUrl}
+        location={item.location}
+        title={item.title}
+        googlemap={item.googleMapsUrl}
+        description={item.description}
+      />
+    );
+  });
   return (
     <div className="App">
       <Header />
-      <Main />
-      <hr />
-      <Main />
-      <hr />
-      <Main />
+      {travels}
     </div>
   );
 }
