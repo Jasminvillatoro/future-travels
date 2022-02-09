@@ -1,6 +1,6 @@
 import '../App.css';
 import pin from '../Images/Fill 219.png';
-// import fuji from '../Images/Rectangle 77.png';
+
 const Main = (props) => {
   return (
     <main>
