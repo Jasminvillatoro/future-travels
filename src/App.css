@@ -123,6 +123,9 @@ p {
     height: 1rem;
     margin-right: 4px;
   }
+  a {
+    font-size: 1.2rem;
+  }
 
   h4 {
     margin: 1rem 0;
@@ -141,6 +144,7 @@ p {
   p {
     font-size: 0.9rem;
   }
+
   .text-cnt {
     padding: 2rem;
   }
