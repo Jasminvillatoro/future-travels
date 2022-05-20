@@ -1,85 +1,147 @@
-body {
+* {
   margin: 0;
-  /* padding: 0; */
+  padding: 0;
   font-family: 'Inter', sans-serif;
 }
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f55a5a;
   color: #fff;
-
   height: 60px;
 }
 
-img {
-  margin: 2px;
+.globe {
+  height: 2.8rem;
+  margin-right: 4px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
+/* Main  */
 main {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo-cnt {
-  margin: 10px;
-  left: 62px;
+  margin: 2rem 2rem;
 }
 
 .travel-img {
-  height: 500px;
   width: 600px;
 }
 
 .text-cnt {
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.pin {
+  height: 1rem;
+  margin-right: 4px;
 }
 
 h4 {
-  letter-spacing: 1px;
-  font-size: 18px;
+  margin: 1rem 0;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
 }
 
 a {
+  font-size: 1.4rem;
   margin-left: 6px;
   letter-spacing: 0;
   color: #918e9b;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: #f55a5a;
+  letter-spacing: 2px;
+}
+
 p {
-  font-size: 20px;
-  letter-spacing: 0.5px;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
   word-spacing: 2px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .travel-img {
-    height: 400px;
-    width: 550px;
-  }
-
-  p {
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    word-spacing: 2px;
+    width: 600px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .globe {
+    height: 2.2rem;
+    margin-right: 4px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
   .travel-img {
-    height: 300px;
-    width: 370px;
+    width: 500px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .globe {
+    height: 2rem;
+    margin-right: 4px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .pin {
+    height: 1rem;
+    margin-right: 4px;
+  }
+
+  h4 {
+    margin: 1rem 0;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+  }
+
+  .travel-img {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+  .text-cnt {
+    padding: 2rem;
   }
 }
