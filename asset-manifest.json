@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/future-travels/static/css/main.ff6a31bf.css",
+    "main.css": "/future-travels/static/css/main.0d832999.css",
     "main.js": "/future-travels/static/js/main.aa51beb5.js",
     "index.html": "/future-travels/index.html",
-    "main.ff6a31bf.css.map": "/future-travels/static/css/main.ff6a31bf.css.map",
+    "main.0d832999.css.map": "/future-travels/static/css/main.0d832999.css.map",
     "main.aa51beb5.js.map": "/future-travels/static/js/main.aa51beb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6a31bf.css",
+    "static/css/main.0d832999.css",
     "static/js/main.aa51beb5.js"
   ]
 }
