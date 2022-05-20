@@ -5,11 +5,11 @@ const Main = (props) => {
   return (
     <main>
       <div className="photo-cnt">
-        <img className="travel-img" src={props.img} alt="" />
+        <img className="travel-img" src={props.img} alt="travel images" />
       </div>
       <div className="text-cnt">
         <h4>
-          <img src={pin} alt="" />
+          <img className="pin" src={pin} alt="red pin" />
           {props.location}
           <a href={props.googlemap}> View on Google Maps</a>
         </h4>
