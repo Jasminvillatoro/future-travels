@@ -22,8 +22,8 @@ h2 {
   font-size: 2rem;
 }
 
-/* Main  */
-main {
+/* Card  */
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ p {
 }
 
 @media (max-width: 960px) {
-  main {
+  .card {
     display: flex;
     flex-direction: column;
   }

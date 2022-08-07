@@ -1,9 +1,9 @@
 import '../App.css';
 import pin from '../Images/Fill 219.png';
 
-const Main = (props) => {
+const Card = (props) => {
   return (
-    <main>
+    <div className="card">
       <div className="photo-cnt">
         <img className="travel-img" src={props.img} alt="travel images" />
       </div>
@@ -16,8 +16,8 @@ const Main = (props) => {
         <h1>{props.title}</h1>
         <p>{props.description}</p>
       </div>
-    </main>
+    </div>
   );
 };
 
-export default Main;
+export default Card;

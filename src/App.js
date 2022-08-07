@@ -1,11 +1,11 @@
 import './App.css';
 import Header from './components/Header';
-import Main from './components/Main';
+import Card from './components/Card';
 import data from './data';
 function App() {
   const travels = data.map((item) => {
     return (
-      <Main
+      <Card
         key={item.id}
         img={item.imageUrl}
         location={item.location}
