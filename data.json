@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "location_id": "23202471",
+      "name": "Dna Slingshot Rental",
+      "distance": "0.6771972256076709",
+      "bearing": "north",
+      "address_obj": {
+        "street1": "535 S Flagler Ave",
+        "city": "Pompano Beach",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060-7913",
+        "address_string": "535 S Flagler Ave, Pompano Beach, FL 33060-7913"
+      }
+    },
+    {
+      "location_id": "25339258",
+      "name": "Beauty Spa 954 Massage",
+      "distance": "0.40700556565202917",
+      "bearing": "east",
+      "address_obj": {
+        "street1": "136 SW 15th Street",
+        "city": "Pompano Beach",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060",
+        "address_string": "136 SW 15th Street, Pompano Beach, FL 33060"
+      }
+    },
+    {
+      "location_id": "19467048",
+      "name": "Tranquil Kneads",
+      "distance": "0.854197042253211",
+      "bearing": "northeast",
+      "address_obj": {
+        "street1": "500 S Cypress Rd",
+        "street2": "Unit 6",
+        "city": "Pompano Beach",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060-7141",
+        "address_string": "500 S Cypress Rd Unit 6, Pompano Beach, FL 33060-7141"
+      }
+    },
+    {
+      "location_id": "23146262",
+      "name": "Health Is It Therapeutic Massage",
+      "distance": "0.726865616812967",
+      "bearing": "east",
+      "address_obj": {
+        "street1": "206 E McNab Rd",
+        "city": "Pompano Beach",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060-9318",
+        "address_string": "206 E McNab Rd, Pompano Beach, FL 33060-9318"
+      }
+    },
+    {
+      "location_id": "12614939",
+      "name": "Health Is It Therapeutic Massage",
+      "distance": "0.7267952922966693",
+      "bearing": "east",
+      "address_obj": {
+        "street1": "206 E McNab Rd",
+        "street2": "Pompano Beach",
+        "city": "Fort Lauderdale",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060",
+        "address_string": "206 E McNab Rd Pompano Beach, Fort Lauderdale, FL 33060"
+      }
+    },
+    {
+      "location_id": "19994848",
+      "name": "Avanti Limousines & Airport Transportation Inc. Boca Limo Service.",
+      "distance": "0.3634345990528105",
+      "bearing": "southwest",
+      "address_obj": {
+        "street1": "1751 S Dixie Hwy",
+        "street2": "Pompano Beach",
+        "city": "Fort Lauderdale",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060-8931",
+        "address_string": "1751 S Dixie Hwy Pompano Beach, Fort Lauderdale, FL 33060-8931"
+      }
+    },
+    {
+      "location_id": "20142581",
+      "name": "Miami",
+      "distance": "0.3634345990528105",
+      "bearing": "southwest",
+      "address_obj": {
+        "street1": "1751 S Dixie Hwy",
+        "street2": "Pompano Beach",
+        "city": "Miami Beach",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33060-8931",
+        "address_string": "1751 S Dixie Hwy Pompano Beach, Miami Beach, FL 33060-8931"
+      }
+    },
+    {
+      "location_id": "14063005",
+      "name": "Encore Foot & Body Massage",
+      "distance": "0.6791831909865694",
+      "bearing": "south",
+      "address_obj": {
+        "street1": "942 NE 62nd St",
+        "city": "Fort Lauderdale",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33334-4110",
+        "address_string": "942 NE 62nd St, Fort Lauderdale, FL 33334-4110"
+      }
+    },
+    {
+      "location_id": "775439",
+      "name": "Heliflite Too",
+      "distance": "0.8567214037239185",
+      "bearing": "southwest",
+      "address_obj": {
+        "street1": "810 NE 60th St",
+        "street2": "",
+        "city": "Fort Lauderdale",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33334-3508",
+        "address_string": "810 NE 60th St, Fort Lauderdale, FL 33334-3508"
+      }
+    },
+    {
+      "location_id": "25395131",
+      "name": "Blackzilian Performance Institute",
+      "distance": "0.9381849299715693",
+      "bearing": "northwest",
+      "address_obj": {
+        "street1": "470 South Andrews Avenue",
+        "city": "Pompano Beach",
+        "state": "Florida",
+        "country": "United States",
+        "postalcode": "33069",
+        "address_string": "470 South Andrews Avenue, Pompano Beach, FL 33069"
+      }
+    }
+  ]
+}
